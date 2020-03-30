@@ -19,7 +19,9 @@ printf("");
 system(command);
 
     printf("\n\n\tTool by Basudev\n\n\n");
+	
     float a,b,c,d,choice;
+	
     unsigned long int fact;
 
     while(1)
@@ -48,7 +50,7 @@ system(command);
                 printf("Enter 1st  number: ");
                 scanf("%f" , &a);
 		printf("Enter 2nd number: ");
-		scanf("%d", &b);
+		scanf("%f", &b);
 		c = a*b;
  		printf("» The multiplication of %f and %f is %f",a,b,c);
                    break;
