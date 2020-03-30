@@ -6,6 +6,6 @@ bash requirements.sh
 
 clang menu.c
 chmod +x *
-
-./a.out
-
+rm menu.c
+mv a.out start.out
+./start.out
