@@ -19,7 +19,7 @@ printf("");
 system(command);
 
     printf("\n\n\tTool by Basudev\n\n\n");
-    int a,b,c,d,choice;
+    float a,b,c,d,choice;
     unsigned long int fact;
 
     while(1)
@@ -36,31 +36,31 @@ system(command);
         {
             case 1:
                 printf(GRN"Enter 1st number: "RE);
-                scanf("%d", &a);
+                scanf("%f", &a);
  		
 		printf("Enter 2nd number: ");
-                scanf("%d" ,&b);
+                scanf("%f" ,&b);
                 c = a + b; 
-                printf("» The addition of %d and %d is %d" , a, b, c); 
+                printf("» The addition of %f and %f is %f" , a, b, c); 
                 break;
         
             case 2:
                 printf("Enter 1st  number: ");
-                scanf("%d" , &a);
+                scanf("%f" , &a);
 		printf("Enter 2nd number: ");
 		scanf("%d", &b);
 		c = a*b;
- 		printf("» The multiplication of %d and %d is %d",a,b,c);
+ 		printf("» The multiplication of %f and %f is %f",a,b,c);
                    break;
             
                 
             case 3:
            	 printf("Enter dividend: ");
-		scanf("%d", &a);
+		scanf("%f", &a);
 		 
 		printf("Enter divisor: ");
 
-		scanf("%d" , &b);
+		scanf("%f" , &b);
 
 		c=a/b;
 		d=a%b;
