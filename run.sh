@@ -4,8 +4,8 @@ bash requirements.sh
 
 
 
-clang menu.c
+clang menu.c -o start.out
 chmod +x *
-rm menu.c
-mv a.out start.out
+
+
 ./start.out
