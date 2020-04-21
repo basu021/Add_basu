@@ -18,7 +18,7 @@ strcpy(command, "./banner.sh");
 printf("");
 system(command);
 
-    printf("\n\n\tTool by Basudev\n\n\n");
+    
 	
     float a,b,c,d;
     int e,f,g,h,choice;	
@@ -26,7 +26,7 @@ system(command);
 
     while(1)
     {
-        printf(YEL "\n-----------------------\n" RE);
+        printf(YEL " ");
         printf("\n         \n");
 	printf(GRN"["RE);
 	printf("1");
