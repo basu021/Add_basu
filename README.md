@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Basu021/Add_basu/logo.png" height="60"><br>
+<img src="https://github.com/Basu021/Add_basu/logo.png"><br>
 
 </p>
 ##Add_basu
